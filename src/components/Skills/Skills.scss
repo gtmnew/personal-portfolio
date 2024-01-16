@@ -1,0 +1,66 @@
+@import "../../styles/mixins.scss";
+
+.skills {
+  padding: 2rem;
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .skills__container-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skills__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4.6rem;
+    padding: 1rem;
+    border: 3px solid #5f02b6;
+    border-radius: 0.8rem;
+    animation: twinkle 2s infinite;
+
+    .skills_card {
+      width: 110px;
+      text-align: center;
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      .skills__image {
+        img {
+          width: 100%;
+          border-radius: 0.4rem;
+        }
+      }
+
+      span {
+        display: block;
+        margin-top: 0.5rem;
+        color: #fff;
+        font-family: var(--font-family-extra);
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    border-color: #5f02b6;
+  }
+  50% {
+    border-color: #ffffff;
+  }
+}

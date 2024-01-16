@@ -1,0 +1,76 @@
+@import "../../styles/mixins.scss";
+
+.services {
+  position: relative;
+
+  .rocket-overlay {
+    position: absolute;
+    top: -50px;
+    left: 58%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+
+    img {
+      transform: rotate(45deg);
+      width: 120px;
+      height: auto;
+      animation: moveAcross 5s ease-in-out infinite;
+    }
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  &__icon {
+    display: grid;
+    place-content: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eea1be;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-inline: auto;
+
+    img {
+      width: 100%;
+      filter: hue-rotate(300deg);
+      color: white;
+    }
+  }
+
+  &__card {
+    background-color: #ff77ab;
+    padding: 4rem 1rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin-inline: auto;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 2px 2px 5px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    h3 {
+      margin-block: 2.5rem 1rem;
+    }
+
+    p {
+      color: var(--main-color);
+    }
+  }
+}
+
+@keyframes moveAcross {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

@@ -1,0 +1,71 @@
+@import "../../styles/mixins.scss";
+
+.about {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__left img {
+    width: 20rem;
+    margin-left: auto;
+    animation: astronautMove 3s infinite;
+
+    @include respond(tab-port) {
+      width: 90%;
+      margin-inline: auto;
+    }
+  }
+
+  &__right {
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #fff;
+    }
+  }
+
+  span {
+    color: var(--main-color);
+    font-weight: 500;
+    font-family: var(--font-family-extra);
+  }
+
+  &__info {
+    margin-top: 1.2rem;
+    padding: 1rem 2rem;
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    position: relative;
+
+    @include respond(tab-port) {
+      padding: 1rem;
+      gap: 2rem;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+
+@keyframes astronautMove {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
