@@ -103,16 +103,16 @@ export const portfolioData = [
   {
     id: 1,
     img: Portfolio1,
-    url: "https://login-valid-blush.vercel.app/",
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
   },
   {
     id: 2,
     img: Portfolio2,
-    url: "https://pokedex-ten-rose-65.vercel.app/",
+    url: "https://shiny-pokedex.vercel.app/",
   },
   {
     id: 3,
     img: Portfolio3,
-    url: "https://gt-store-rho.vercel.app/",
+    url: "https://gt-store-ashy.vercel.app/",
   },
 ];
