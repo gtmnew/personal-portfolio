@@ -113,6 +113,6 @@ export const portfolioData = [
   {
     id: 3,
     img: Portfolio3,
-    url: "https://gt-store-ashy.vercel.app/",
+    url: "https://store-gt.vercel.app/",
   },
 ];
