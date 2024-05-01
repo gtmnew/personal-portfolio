@@ -6,13 +6,13 @@ import Service2 from "./assets/service-2.webp";
 import Service6 from "./assets/service-6.webp";
 import Portfolio1 from "./assets/1.jpg";
 import Portfolio2 from "./assets/2.jpg";
-import Portfolio3 from "./assets/3.jpg";
-import Logo1 from "./assets/LogoHTML.png";
+import Portfolio3 from "./assets/1.png";
+import Logo1 from "./assets/LogoJS.png";
 import Logo2 from "./assets/LogoReact.png";
-import Logo3 from "./assets/LogoCSS.png";
-import Logo4 from "./assets/LogoJS.png";
-import Logo5 from "./assets/LogoSass.png";
-import Logo6 from "./assets/LogoBS.png";
+import Logo3 from "./assets/LogoNode.png";
+import Logo4 from "./assets/LogoSass.png";
+import Logo5 from "./assets/LogoCSS.png";
+import Logo6 from "./assets/LogoHTML.png";
 
 export const heroData = [
   {
@@ -56,7 +56,7 @@ export const statsData = [
 
 export const skillsData = [
   {
-    name: "HTML",
+    name: "JavaScript",
     img: Logo1,
   },
   {
@@ -64,19 +64,19 @@ export const skillsData = [
     img: Logo2,
   },
   {
-    name: "CSS",
+    name: "NodeJS",
     img: Logo3,
   },
   {
-    name: "JavaScript",
+    name: "Sass",
     img: Logo4,
   },
   {
-    name: "Sass",
+    name: "CSS",
     img: Logo5,
   },
   {
-    name: "Bootstrap",
+    name: "HTML",
     img: Logo6,
   },
 ];

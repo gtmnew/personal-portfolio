@@ -31,7 +31,7 @@ const About = () => {
               <ul>
                 <li>
                   <span>Celular</span>
-                  <p>(11)97074-4979</p>
+                  <p>(11) 97074-4979</p>
                 </li>
                 <li>
                   <span>Email</span>

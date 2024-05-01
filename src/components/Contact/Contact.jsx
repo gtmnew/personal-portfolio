@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="section-title">
         <span>Contato</span>
         <h2>
-          Despertei interesse em você? <br />
+          Despertei seu interesse? <br />
           Entre em contato comigo!
         </h2>
       </div>
@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="EmailIcon">
           <BsMailboxFlag />
         </div>
-        <h3>Me mande um email!</h3>
+        <h3>Mande-me um email!</h3>
         <div className="EmailCopy" onClick={handleEmailCopy}>
           <span ref={emailRef}>gabrieltadeums11@outlook.com</span>
         </div>
@@ -50,7 +50,7 @@ const Contact = () => {
           <span>(11) 97074-4979</span>
         </div>
       </div>
-      <footer>Copyright © 2024 GTcode</footer>
+      <footer>Copyright © 2024 GTechCode</footer>
     </section>
   );
 };

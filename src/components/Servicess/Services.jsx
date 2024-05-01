@@ -1,14 +1,9 @@
 import "./Services.scss";
 import { serviceData } from "../../Data";
-import RocketImage from "../../assets/pinkrocket.png";
 
 const Services = () => {
   return (
     <section className="services section-padding" id="serviços">
-      <div className="rocket-overlay">
-        <img src={RocketImage} alt="rocket" />
-      </div>
-
       <div className="section-title">
         <span>Serviços</span>
         <h3>O que ofereço aos meus clientes:</h3>

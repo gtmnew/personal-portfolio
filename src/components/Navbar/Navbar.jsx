@@ -16,7 +16,7 @@ const Navbar = () => {
           onClick={() => setShowNav(false)}
         >
           <TbCircleLetterG className="logo-icon" />
-          <TbCircleLetterT className="logo-icon" /> code
+          <TbCircleLetterT className="logo-icon" />
         </a>
 
         <div className="navbar__links">

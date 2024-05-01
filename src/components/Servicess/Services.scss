@@ -3,23 +3,6 @@
 .services {
   position: relative;
 
-  .rocket-overlay {
-    position: absolute;
-    top: -50px;
-    left: 58%;
-    transform: translateX(-50%);
-    z-index: 2;
-    width: 100%;
-    text-align: center;
-
-    img {
-      transform: rotate(45deg);
-      width: 120px;
-      height: auto;
-      animation: moveAcross 5s ease-in-out infinite;
-    }
-  }
-
   &__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -63,14 +46,5 @@
     p {
       color: #fff;
     }
-  }
-}
-
-@keyframes moveAcross {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(1200%);
   }
 }
