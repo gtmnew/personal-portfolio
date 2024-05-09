@@ -4,9 +4,9 @@ import Card3 from "./assets/diamond.webp";
 import Service1 from "./assets/service-1.webp";
 import Service2 from "./assets/service-2.webp";
 import Service6 from "./assets/service-6.webp";
-import Portfolio1 from "./assets/1.jpg";
-import Portfolio2 from "./assets/2.jpg";
-import Portfolio3 from "./assets/1.png";
+import Portfolio1 from "./assets/1.png";
+import Portfolio2 from "./assets/2.png";
+import Portfolio3 from "./assets/3.png";
 import Logo1 from "./assets/LogoJS.png";
 import Logo2 from "./assets/LogoReact.png";
 import Logo3 from "./assets/LogoNode.png";
@@ -103,16 +103,16 @@ export const portfolioData = [
   {
     id: 1,
     img: Portfolio1,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://hoobank-app-two.vercel.app/",
   },
   {
     id: 2,
     img: Portfolio2,
-    url: "https://shiny-pokedex.vercel.app/",
+    url: "https://pokedex-evolutionn.vercel.app/",
   },
   {
     id: 3,
     img: Portfolio3,
-    url: "https://store-gt.vercel.app/",
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
   },
 ];
