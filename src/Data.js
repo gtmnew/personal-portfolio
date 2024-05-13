@@ -7,12 +7,16 @@ import Service6 from "./assets/service-6.webp";
 import Portfolio1 from "./assets/1.png";
 import Portfolio2 from "./assets/2.png";
 import Portfolio3 from "./assets/3.png";
-import Logo1 from "./assets/LogoJS.png";
-import Logo2 from "./assets/LogoReact.png";
-import Logo3 from "./assets/LogoNode.png";
-import Logo4 from "./assets/LogoSass.png";
-import Logo5 from "./assets/LogoCSS.png";
-import Logo6 from "./assets/LogoHTML.png";
+import Logo1 from "./assets/LogoHTML.png";
+import Logo2 from "./assets/LogoCSS.png";
+import Logo3 from "./assets/LogoJS.png";
+import Logo4 from "./assets/LogoReact.png";
+import Logo5 from "./assets/LogoNode.png";
+import Logo6 from "./assets/LogoTailwind.png";
+import Logo7 from "./assets/LogoSass.png";
+import Logo8 from "./assets/LogoAngular.png";
+import Logo9 from "./assets/LogoBS.png";
+import Logo10 from "./assets/LogoGit.png";
 
 export const heroData = [
   {
@@ -56,28 +60,44 @@ export const statsData = [
 
 export const skillsData = [
   {
-    name: "JavaScript",
+    name: "HTML",
     img: Logo1,
   },
   {
-    name: "React",
+    name: "CSS",
     img: Logo2,
   },
   {
-    name: "NodeJS",
+    name: "JavaScript",
     img: Logo3,
   },
   {
-    name: "Sass",
+    name: "React",
     img: Logo4,
   },
   {
-    name: "CSS",
+    name: "Node.Js",
     img: Logo5,
   },
   {
-    name: "HTML",
+    name: "Tailwind",
     img: Logo6,
+  },
+  {
+    name: "Sass",
+    img: Logo7,
+  },
+  {
+    name: "Angular",
+    img: Logo8,
+  },
+  {
+    name: "Bootstrap",
+    img: Logo9,
+  },
+  {
+    name: "Git",
+    img: Logo10,
   },
 ];
 
