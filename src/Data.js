@@ -148,31 +148,31 @@ export const portfolioData = [
   {
     id: 3,
     img: Portfolio3,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://login-valid-sigma.vercel.app/",
   },
   {
     id: 4,
     img: Portfolio4,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://weather-now-roan.vercel.app/",
   },
   {
     id: 5,
     img: Portfolio5,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://1gen-pokedex.vercel.app/",
   },
   {
     id: 6,
     img: Portfolio6,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://shiny-pokedex.vercel.app/",
   },
   {
     id: 7,
     img: Portfolio7,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://store-gt.vercel.app/",
   },
   {
     id: 8,
     img: Portfolio8,
-    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+    url: "https://app-cakes.vercel.app/",
   },
 ];
