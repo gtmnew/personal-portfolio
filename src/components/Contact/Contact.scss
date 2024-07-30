@@ -15,8 +15,16 @@
   .EmailCopy {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    width: 28.4rem;
+    width: 90%;
     cursor: pointer;
+
+    span {
+      font-size: 0.8rem;
+    }
+
+    @include respond(phone) {
+      margin: 1rem 2rem 0.5rem;
+    }
   }
 
   .email-btn {
