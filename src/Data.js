@@ -7,16 +7,23 @@ import Service6 from "./assets/service-6.webp";
 import Portfolio1 from "./assets/1.png";
 import Portfolio2 from "./assets/2.png";
 import Portfolio3 from "./assets/3.png";
+import Portfolio4 from "./assets/4.png";
+import Portfolio5 from "./assets/5.png";
+import Portfolio6 from "./assets/6.jpg";
+import Portfolio7 from "./assets/7.jpg";
+import Portfolio8 from "./assets/8.jpg";
 import Logo1 from "./assets/LogoHTML.png";
 import Logo2 from "./assets/LogoCSS.png";
 import Logo3 from "./assets/LogoJS.png";
 import Logo4 from "./assets/LogoReact.png";
 import Logo5 from "./assets/LogoNode.png";
-import Logo6 from "./assets/LogoTailwind.png";
-import Logo7 from "./assets/LogoSass.png";
-import Logo8 from "./assets/LogoAngular.png";
-import Logo9 from "./assets/LogoBS.png";
-import Logo10 from "./assets/LogoGit.png";
+import Logo6 from "./assets/LogoTS.png";
+import Logo7 from "./assets/LogoTailwind.png";
+import Logo8 from "./assets/LogoSass.png";
+import Logo9 from "./assets/LogoAngular.png";
+import Logo10 from "./assets/LogoBS.png";
+import Logo11 from "./assets/LogoGit.png";
+import Logo12 from "./assets/LogoC.png";
 
 export const heroData = [
   {
@@ -80,24 +87,32 @@ export const skillsData = [
     img: Logo5,
   },
   {
-    name: "Tailwind",
+    name: "TypeScript",
     img: Logo6,
   },
   {
-    name: "Sass",
+    name: "Tailwind",
     img: Logo7,
   },
   {
-    name: "Angular",
+    name: "Sass",
     img: Logo8,
   },
   {
-    name: "Bootstrap",
+    name: "Angular",
     img: Logo9,
   },
   {
-    name: "Git",
+    name: "Bootstrap",
     img: Logo10,
+  },
+  {
+    name: "Git",
+    img: Logo11,
+  },
+  {
+    name: "C#",
+    img: Logo12,
   },
 ];
 
@@ -133,6 +148,31 @@ export const portfolioData = [
   {
     id: 3,
     img: Portfolio3,
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+  },
+  {
+    id: 4,
+    img: Portfolio4,
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+  },
+  {
+    id: 5,
+    img: Portfolio5,
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+  },
+  {
+    id: 6,
+    img: Portfolio6,
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+  },
+  {
+    id: 7,
+    img: Portfolio7,
+    url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
+  },
+  {
+    id: 8,
+    img: Portfolio8,
     url: "https://login-valid-lee7uxsot-gabriel-tadeus-projects.vercel.app/",
   },
 ];

@@ -2,12 +2,13 @@
 
 .heroCards {
   margin-bottom: 4rem;
+  padding: 0 2rem;
 
   .wrapper {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
   }
 
   img {

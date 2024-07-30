@@ -2,6 +2,13 @@
 
 .services {
   position: relative;
+  padding: 0 2rem;
+
+  .section-title {
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
 
   &__container {
     display: grid;

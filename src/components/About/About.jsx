@@ -8,7 +8,7 @@ const About = () => {
         <span>Sobre mim</span>
         <h3>
           A diversidade de abordagens e a constante evolução tecnológica me
-          inspiram
+          motivam
         </h3>
       </div>
 

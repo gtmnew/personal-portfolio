@@ -13,7 +13,7 @@
     margin-top: 2rem;
   }
   .EmailCopy {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     width: 28.4rem;
     cursor: pointer;
@@ -36,9 +36,10 @@
   }
 
   span {
+    font-size: 0.9rem;
     color: white;
     font-weight: bold;
-    border: 1px solid #3a0035;
+    border: 2px solid #fff;
     border-radius: 1rem;
     padding: 0.5rem 5rem;
   }
