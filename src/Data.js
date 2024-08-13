@@ -16,14 +16,14 @@ import Logo1 from "./assets/LogoHTML.png";
 import Logo2 from "./assets/LogoCSS.png";
 import Logo3 from "./assets/LogoJS.png";
 import Logo4 from "./assets/LogoReact.png";
-import Logo5 from "./assets/LogoNode.png";
+import Logo5 from "./assets/LogoNext.png";
 import Logo6 from "./assets/LogoTS.png";
 import Logo7 from "./assets/LogoTailwind.png";
 import Logo8 from "./assets/LogoSass.png";
-import Logo9 from "./assets/LogoAngular.png";
+import Logo9 from "./assets/LogoNode.png";
 import Logo10 from "./assets/LogoBS.png";
-import Logo11 from "./assets/LogoGit.png";
-import Logo12 from "./assets/LogoC.png";
+import Logo11 from "./assets/LogoAngular.png";
+import Logo12 from "./assets/LogoGit.png";
 
 export const heroData = [
   {
@@ -79,11 +79,11 @@ export const skillsData = [
     img: Logo3,
   },
   {
-    name: "React",
+    name: "ReactJS",
     img: Logo4,
   },
   {
-    name: "Node.Js",
+    name: "NextJS",
     img: Logo5,
   },
   {
@@ -99,7 +99,7 @@ export const skillsData = [
     img: Logo8,
   },
   {
-    name: "Angular",
+    name: "NodeJS",
     img: Logo9,
   },
   {
@@ -107,11 +107,11 @@ export const skillsData = [
     img: Logo10,
   },
   {
-    name: "Git",
+    name: "Angular",
     img: Logo11,
   },
   {
-    name: "C#",
+    name: "Git",
     img: Logo12,
   },
 ];

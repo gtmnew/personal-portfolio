@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     gap: 4.6rem;
     padding: 1rem;
-    border: 3px solid #5f02b6;
+    border: 3px solid #00a2ff;
     border-radius: 0.8rem;
     animation: twinkle 2s infinite;
 
@@ -59,7 +59,7 @@
 @keyframes twinkle {
   0%,
   100% {
-    border-color: #5f02b6;
+    border-color: #00eeff;
   }
   50% {
     border-color: #ffffff;

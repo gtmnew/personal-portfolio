@@ -1,6 +1,6 @@
 import "./Navbar.scss";
 import { useState } from "react";
-import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { TbCircleLetterG, TbCircleLetterT } from "react-icons/tb";
 
@@ -61,7 +61,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagramSquare />
+              <FaInstagram />
             </a>
           </div>
         </div>

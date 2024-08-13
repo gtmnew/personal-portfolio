@@ -50,7 +50,7 @@
   &__info {
     margin-top: 1.2rem;
     padding: 1rem 2rem;
-    border: 2px solid var(--main-color);
+    border: 2px solid #00a2ff;
     border-radius: 1rem;
     position: relative;
 
@@ -72,7 +72,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-50px);
+    transform: translateY(100px);
   }
   100% {
     transform: translateY(0);
