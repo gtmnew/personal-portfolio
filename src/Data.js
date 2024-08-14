@@ -12,6 +12,7 @@ import Portfolio5 from "./assets/5.png";
 import Portfolio6 from "./assets/6.jpg";
 import Portfolio7 from "./assets/7.jpg";
 import Portfolio8 from "./assets/8.jpg";
+import Portfolio9 from "./assets/9.png";
 import Logo1 from "./assets/LogoHTML.png";
 import Logo2 from "./assets/LogoCSS.png";
 import Logo3 from "./assets/LogoJS.png";
@@ -174,5 +175,10 @@ export const portfolioData = [
     id: 8,
     img: Portfolio8,
     url: "https://app-cakes.vercel.app/",
+  },
+  {
+    id: 9,
+    img: Portfolio9,
+    url: "https://instituto-eduardo-magalhaes.vercel.app/",
   },
 ];
