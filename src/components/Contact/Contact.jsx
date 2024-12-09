@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { BsMailboxFlag } from "react-icons/bs";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaRegCheckCircle } from "react-icons/fa";
+import { IoMdArrowUp } from "react-icons/io";
 import "./Contact.scss";
 
 const Contact = () => {
@@ -22,7 +23,7 @@ const Contact = () => {
   return (
     <section className="contact section-padding" id="contato">
       <div className="section-title">
-        <span>Contato</span>
+        <span>CONTATO</span>
         <h2>
           Despertei seu interesse? <br />
           Entre em contato comigo!
@@ -37,19 +38,22 @@ const Contact = () => {
           <span ref={emailRef}>gabrieltadeums11@outlook.com</span>
         </div>
         <div className="email-btn">
+          <div
+            className="icons
+          "
+          >
+            {emailCopied ? (
+              <FaRegCheckCircle className="check-icon" />
+            ) : (
+              <IoMdArrowUp className="up-icon" />
+            )}
+          </div>
           <button>
             {emailCopied ? "Email copiado!" : "Clique no email para copiá-lo"}
           </button>
         </div>
       </div>
-      <div className="container-phone">
-        <div className="phone-icon">
-          <FaWhatsapp />
-        </div>
-        <div className="phone">
-          <span>(11) 97074-4979</span>
-        </div>
-      </div>
+
       <footer>Copyright © 2024 GTechCode</footer>
     </section>
   );

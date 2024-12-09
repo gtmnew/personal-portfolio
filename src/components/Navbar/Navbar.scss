@@ -70,27 +70,6 @@
     }
   }
 
-  &__icons {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding-top: 0.5rem;
-    margin-left: 2rem;
-    position: relative;
-
-    &::after {
-      position: absolute;
-      content: "|";
-      color: #fff;
-      left: -33px;
-      top: 5px;
-    }
-
-    @include respond(tab-port) {
-      display: none;
-    }
-  }
-
   svg {
     color: #fff;
     transition: all 0.3s ease;

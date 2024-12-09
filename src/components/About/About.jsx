@@ -4,14 +4,6 @@ import Img from "../../assets/astronaut.png";
 const About = () => {
   return (
     <section className="about section-padding" id="sobre">
-      <div className="section-title">
-        <span>Sobre mim</span>
-        <h3>
-          A diversidade de abordagens e a constante evolução tecnológica me
-          motivam
-        </h3>
-      </div>
-
       <div className="wrapper about__container">
         <div className="about__left">
           <img src={Img} alt="about" />
@@ -19,11 +11,11 @@ const About = () => {
         <div className="about__right">
           <h3>Sobre</h3>
           <p>
-            Dedico-me ao estudo aprofundado de JavaScript e seus frameworks, de
-            forma independente, ansioso por uma oportunidade que permita
-            demonstrar meu potencial e contribuir significativamente.
-            Comprometo-me a abordar desafios com resiliência e a realizar com
-            excelência quaisquer tarefas necessárias para o sucesso.
+            Dedico-me ao estudo em JavaScript e seus frameworks, de forma
+            independente, motivado por uma oportunidade que permita demonstrar
+            meu potencial e contribuir significativamente. Comprometo-me a
+            abordar desafios com resiliência e a realizar com excelência
+            quaisquer tarefas necessárias para o sucesso.
           </p>
 
           <div className="about__info">

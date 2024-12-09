@@ -1,13 +1,17 @@
 @import "../../styles/mixins.scss";
 
 .projects {
+  .icon_title {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+  }
+
   @include respond(phone) {
     padding: 0 2rem;
   }
   .swiper_container {
     margin: 0 1.5rem;
-    border: 2px solid #fff;
-    border-radius: 2rem;
+
     height: 27.5rem;
     padding: 2rem 0;
     display: flex;
@@ -32,7 +36,7 @@
       img {
         width: 100%;
         height: 100%;
-        border-radius: 2rem;
+        border-radius: 1rem;
         object-fit: cover;
 
         @include respond(phone) {
@@ -52,7 +56,6 @@
 
   .slider-controller {
     .swiper-pagination {
-      background: #0066ff;
       display: flex;
       justify-content: center;
       align-items: center;

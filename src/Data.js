@@ -179,6 +179,6 @@ export const portfolioData = [
   {
     id: 9,
     img: Portfolio9,
-    url: "https://instituto-eduardo-magalhaes.vercel.app/",
+    url: "https://responsive-dashboard-lilac.vercel.app/admin",
   },
 ];

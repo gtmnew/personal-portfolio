@@ -5,11 +5,8 @@ const Skills = () => {
   return (
     <section className="skills section-padding" id="skills">
       <div className="section-title">
-        <span>Skills</span>
-        <h3>
-          Explore abaixo as sólidas fundações das minhas habilidades, que
-          refletem meu domínio em diversas tecnologias e frameworks
-        </h3>
+        <span>SKILLS</span>
+        <h3>Tecnologias e frameworks dominados</h3>
       </div>
 
       <div className="skills__container-wrapper">

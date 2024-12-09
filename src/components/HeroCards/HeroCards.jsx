@@ -1,7 +1,8 @@
 import "./HeroCards.scss";
 import { heroData } from "../../Data";
+import Projects from "../Projectss/Projects";
 
-const HeroCards = () => {
+export const HeroCards = () => {
   return (
     <section className="heroCards">
       <div className="wrapper">
@@ -13,6 +14,7 @@ const HeroCards = () => {
           </div>
         ))}
       </div>
+      <Projects />
     </section>
   );
 };
